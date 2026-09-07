@@ -30,7 +30,7 @@ Python 3.11+ standard-library local service with SQLite. SAM API ingestion bound
 6. Push reviewable code. Live launch requires configured owner accounts and verified end-to-end test delivery; never mark a demo as live.
 
 ## Account setup and limits
-SAM.gov API key; a dedicated Stripe restricted read key and $79/month recurring price/payment link; Stripe customer portal; Resend key and verified sending domain; Cloudflare free Pages project and local Wrangler login. Keep a strict free-tier cap of 90 emails/day and 2,800/month; cap publication to 28/month and SAM calls to the configured account quota (default 8/day). No third-party API keys are assumed merely because repositories mention a provider. Do not recover or copy committed credentials.
+SAM.gov API key; a dedicated Stripe restricted read key and $79/month recurring price/payment link; Stripe customer portal; Resend key and verified sending domain; Cloudflare free Pages project and local Wrangler login. Keep a strict free-tier cap of 90 emails/day and 2,800/month; cap publication to 31/month and SAM calls to the configured account quota (default 8/day). No third-party API keys are assumed merely because repositories mention a provider. Do not recover or copy committed credentials.
 
 ## Automation boundary
 Automatable: ingestion, filtering, state pages, checkout, entitlement reconciliation, scheduled briefs, change detection, retries, expiration, publication and renewal/cancellation handling. Not guaranteed automatable: customer acquisition, merchant identity verification, domain ownership, disputes/refunds, tax setup, API policy changes, hardware outages, and unusual customer support. This implementation must explicitly report setup blockers rather than claim it is already making money.

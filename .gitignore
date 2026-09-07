@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+config.json
+data/
+demo-output/
+dist/
+dist-staging/
+__pycache__/
+*.pyc
+*.sqlite*
+*.log
+.venv/
+.wrangler/

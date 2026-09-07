@@ -1,0 +1,19 @@
+{
+  "data_dir": "data",
+  "live_mode": false,
+  "sending_enabled": false,
+  "publishing_enabled": false,
+  "launch_verified": false,
+  "sam_daily_limit": 8,
+  "sam_pages": 4,
+  "stripe_price_id": "",
+  "payment_link": "",
+  "portal_url": "",
+  "sender_email": "",
+  "support_email": "",
+  "business_address": "",
+  "site_url": "",
+  "cloudflare_project": "",
+  "wrangler_path": "",
+  "stripe_payment_link_id": ""
+}
